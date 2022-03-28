@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/custom_black"
+
+    >
+
+    <TextView
+        android:id="@+id/upperShower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_white"
+        android:textSize="30sp"
+        android:gravity="end"
+        android:background="@color/custom_black"
+        android:padding="10dp"
+        android:text="3415132" />
+    <TextView
+        android:id="@+id/downerShower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_white"
+        android:textSize="60sp"
+        android:gravity="end"
+        android:background="@color/custom_black"
+        android:padding="10dp"
+        android:text="3415132" />
+</LinearLayout>
